@@ -59,8 +59,7 @@
       <p class="empty-sub">Click Add Category to create one</p>
     </div>
 
-    <!-- Add / Edit Modal -->
-    <transition name="fade">
+     <transition name="fade">
       <div v-if="dlg.open" class="overlay" @click.self="closeDlg">
         <div class="modal">
           <div class="modal-head">
