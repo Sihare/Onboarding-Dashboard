@@ -130,7 +130,7 @@
         <div v-if="viewDlg.g" class="modal modal-md">
           <div class="modal-head">{{ viewDlg.g.name }}</div>
           <div class="modal-body">
-            <div
+            <div 
               style="
                 display: flex;
                 flex-direction: column;
